@@ -22,6 +22,6 @@ int main() {
     }
     SomarNumeros(n1);
     
-    printf("A soma dos algarismos de %d é %d", n1, soma);
+    printf("A soma dos algarismos de %d eh %d", n1, soma);
     return 0;
 }
