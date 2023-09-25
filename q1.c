@@ -19,6 +19,10 @@ int main(){
         return 0;
         break;
         }
+        else if (jogos != AnoEscolhido){
+        printf("Nao houve Jogos Olimpicos de Verao ou Copa do Mundo no ano de %d", AnoEscolhido);
+        break;
+        }
         else if (jogos == AnoEscolhido){
         printf("Os jogos Olimpicos de Verao ocorreram no ano de %d", AnoEscolhido);
         break;
